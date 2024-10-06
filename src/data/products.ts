@@ -38,7 +38,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 3,
-		title: "Mens Cotton Jacket",
+		title: "Men's Beige Cotton Jacket Size L",
 		price: 55.99,
 		description:
 			"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
@@ -64,8 +64,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 5,
-		title:
-			"John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+		title: "Silver Dragon Station Chain",
 		price: 695,
 		description:
 			"From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
@@ -91,7 +90,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 7,
-		title: "White Gold Plated Princess",
+		title: "Princess plated in white Gold and Silver drippings",
 		price: 9.99,
 		description:
 			"Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
@@ -130,7 +129,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 10,
-		title: "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+		title: "SanDisk SSD PLUS SSD Black Color internal 1 TB - SATA III 6 Gb/s",
 		price: 109,
 		description:
 			"Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
@@ -184,8 +183,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 14,
-		title:
-			"Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+		title: "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
 		price: 999.99,
 		description:
 			"49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
@@ -198,7 +196,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 15,
-		title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+		title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter",
 		price: 56.99,
 		description:
 			"Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
@@ -238,7 +236,7 @@ export const products: Product[] = [
 	},
 	{
 		id: 18,
-		title: "MBJ Women's Solid Short Sleeve Boat Neck V ",
+		title: "MBJ Women's Plain Short Sleeve V-Neck Lane Gloss Brand",
 		price: 9.85,
 		description:
 			"95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
