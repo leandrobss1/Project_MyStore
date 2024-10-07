@@ -1,8 +1,12 @@
 import * as S from "./styles";
 
-export const Cart: React.FC = () => {
+interface CartProps {
+	showCart: boolean;
+}
+
+export const Cart: React.FC<CartProps> = ({ showCart }) => {
 	return (
-		<S.Container>
+		<S.Container showCart={showCart}>
 			<S.Title>Carrinho</S.Title>
 		</S.Container>
 	);

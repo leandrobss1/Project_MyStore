@@ -23,7 +23,8 @@ export const Header: React.FC = () => {
 					</S.Cartbutton>
 				</S.ButtonsWrapper>
 			</S.Wrapper>
-			<Cart />
+
+			<Cart showCart={showCart} />
 		</S.StyledHeader>
 	);
 };
