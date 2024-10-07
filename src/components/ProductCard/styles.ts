@@ -37,7 +37,15 @@ export const ReviewPriceContainer = styled.div`
 	margin-top: 1rem;
 `;
 
-export const Review = styled.span``;
+export const Review = styled.span`
+	display: flex;
+
+	font-size: 0.7rem;
+
+	svg {
+		font-size: 1rem;
+	}
+`;
 
 export const Price = styled.strong``;
 
@@ -55,7 +63,7 @@ export const AddToCartButton = styled.button`
 	border-radius: 5px;
 	height: 40px;
 	width: 100%;
-	background-color: blue;
+	background-color: navy;
 	color: white;
 	cursor: pointer;
 
