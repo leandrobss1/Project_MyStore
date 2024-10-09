@@ -9,7 +9,7 @@ export const Container = styled.aside<ContainerProps>`
 	top: 0;
 	right: ${(props) => (props.showCart ? "0" : "-250px")};
 
-	width: 250px;
+	width: 224px;
 	height: 100vh;
 	background-color: white;
 
