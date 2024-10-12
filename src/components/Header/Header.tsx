@@ -4,7 +4,7 @@ import { Cart } from '../Cart/Cart';
 
 import * as S from './styles';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootReducer } from '../../redux/UserReducer/root-reducer';
+import { RootReducer } from '../../redux/User/root-reducer';
 
 export const Header: React.FC = () => {
 	const { user } = useSelector(
@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
 	console.log(user);
 
 	const [showCart, setShowCart] = useState(false);
-	const isLogged = false;
+	const isLogged = user != null;
 
 	function handleUserAuth() {
 		if (user === null) {
@@ -33,6 +33,8 @@ export const Header: React.FC = () => {
 			});
 		}
 	}
+
+	console.log(user);
 
 	return (
 		<S.StyledHeader>

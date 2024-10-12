@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Card = styled.article`
 	background-color: white;
@@ -65,6 +65,25 @@ export const AddToCartButton = styled.button`
 	width: 100%;
 	background-color: navy;
 	color: white;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.3rem;
+
+	svg {
+		font-size: 0.7rem;
+	}
+`;
+
+export const RemoveFromCartButton = styled.button`
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 100%;
+	background-color: violet;
+	color: black;
 	cursor: pointer;
 
 	display: flex;
