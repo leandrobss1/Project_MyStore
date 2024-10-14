@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 interface ContainerProps {
 	showCart: boolean;
@@ -7,7 +7,7 @@ interface ContainerProps {
 export const Container = styled.aside<ContainerProps>`
 	position: fixed;
 	top: 0;
-	right: ${(props) => (props.showCart ? "0" : "-250px")};
+	right: ${(props) => (props.showCart ? '0' : '-250px')};
 
 	width: 224px;
 	height: 100vh;
@@ -20,3 +20,27 @@ export const Container = styled.aside<ContainerProps>`
 `;
 
 export const Title = styled.h1``;
+
+export const CartProductsList = styled.ul`
+	padding: 2rem 0;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+`;
+
+export const CartProductsItem = styled.li``;
+
+export const CartTotal = styled.strong``;
+
+export const RemoveProductListAside = styled.button`
+	border: none;
+	padding: 0.2rem;
+	color: red;
+	background-color: white;
+`;
+
+export const FaArrowRight = styled.button`
+	border: none;
+`;
