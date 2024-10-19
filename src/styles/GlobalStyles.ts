@@ -1,6 +1,6 @@
 // CSS em TypeScipt
 
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     * {
@@ -26,5 +26,7 @@ export const GlobalStyles = createGlobalStyle`
             filter: brightness(1.2);
             transition: filter 0.3s;
         }
+
+        z-index: 10;
     }
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
 	background-color: navy;
@@ -35,7 +35,7 @@ export const AuthButton = styled.button<AuthButtonProps>`
 	border-radius: 5px;
 	height: 30px;
 	padding: 0 1rem;
-	background-color: ${(props) => (props.isLogged ? "red" : "green")};
+	background-color: ${(props) => (props.isLogged ? 'red' : 'green')};
 	color: white;
 	font-size: 0.75rem;
 	cursor: pointer;
@@ -49,7 +49,7 @@ export const AuthButton = styled.button<AuthButtonProps>`
 	}
 `;
 
-export const Cartbutton = styled.button`
+export const CartButton = styled.button`
 	border: none;
 	border-radius: 5px;
 	height: 30px;

@@ -21,6 +21,11 @@ export const Header: React.FC = () => {
 	console.log(user);
 
 	const [showCart, setShowCart] = useState(false);
+
+	const toggleCart = () => {
+		setShowCart(!showCart);
+	};
+
 	const isLogged = user != null;
 
 	function handleUserAuth() {
@@ -48,13 +53,13 @@ export const Header: React.FC = () => {
 						{isLogged ? 'Logout' : 'Login'}
 						{isLogged ? <FiLogOut /> : <FiLogIn />}
 					</S.AuthButton>
-					<S.Cartbutton onClick={() => setShowCart(!showCart)}>
+					<S.CartButton onClick={() => setShowCart(!showCart)}>
 						Carrinho <FiShoppingCart />
-					</S.Cartbutton>
+					</S.CartButton>
 				</S.ButtonsWrapper>
 			</S.Wrapper>
 
-			<Cart showCart={showCart} cart={cart} />
+			<Cart showCart={showCart} cart={cart} toggleCart={toggleCart} />
 		</S.StyledHeader>
 	);
 };

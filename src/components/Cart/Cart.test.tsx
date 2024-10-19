@@ -5,7 +5,7 @@ jest.mock('react-redux');
 
 describe('Cart > Unit tests', () => {
 	it('should render an empty cart correctly', () => {
-		render(<Cart showCart={true} cart={[]} />);
+		render(<Cart showCart={true} cart={[]} toggleCart={() => []} />);
 
 		const titleElement = screen.getByRole('heading', { level: 1 });
 
