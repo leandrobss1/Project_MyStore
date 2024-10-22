@@ -33,6 +33,7 @@ export const Cart: React.FC<CartProps> = ({ showCart, cart, toggleCart }) => {
 					<S.CartProductsItem key={product.id}>
 						<strong>{product.title}</strong> - ${product.price}
 						<S.RemoveProductListAside
+							aria-label='Remover'
 							onClick={() => dispatch(removeProduct(product))}
 						>
 							<FaTrashAlt />
@@ -40,7 +41,9 @@ export const Cart: React.FC<CartProps> = ({ showCart, cart, toggleCart }) => {
 					</S.CartProductsItem>
 				))}
 			</S.CartProductsList>
-			<S.CartTotal>Total: ${total}</S.CartTotal>
+			<S.CartTotal aria-label='Remover' data-testId='total'>
+				Total: ${total}
+			</S.CartTotal>
 		</S.Container>
 	);
 };
